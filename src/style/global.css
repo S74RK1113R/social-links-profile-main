@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import "@fontsource/inter";
+
+@theme{
+    --font-inter: 'Inter';
+    --text-base: 14px;
+    --color-FTM-Green: hsl(75, 94%, 57%);
+    --color-FTM-White: hsl(0, 0%, 100%) ; 
+    --color-FTM-Grey-700: hsl(0, 0%, 20%);
+    --color-FTM-Grey-800: hsl(0, 0%, 12%);
+    --color-FTM-Grey-900: hsl(0, 0%, 8%); 
+}
+.position-cards{
+    @apply flex flex-col place-items-center justify-center;
+}
